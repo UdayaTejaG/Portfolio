@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    
+    <style>
+      html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+      body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+.fade-in {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.fade-out {
+  animation: fadeOut ease 2s;
+  -webkit-animation: fadeOut ease 2s;
+  -moz-animation: fadeOut ease 2s;
+  -o-animation: fadeOut ease 2s;
+  -ms-animation: fadeOut ease 2s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+}
+
+.font-exo {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.font-space-mono {
+  font-family: 'Space Mono', monospace;
+}
+    </style>
+    <script type="module" crossorigin src="/portfolio/assets/index.4f617b33.js"></script>
+    <link rel="stylesheet" href="/portfolio/assets/index.47999e59.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <div id="textapp">
+      <div
+        class="absolute text-white text-center "
+        style="top: 50%; transform: translate(-50%, -50%); left: 50%;"
+      >
+      <div id="start_text" class="fade-in">
+         <p class="font-space-mono text-4xl uppercase tracking-wide ">
+          UDAYA TEJA G
+        </p>
+        <p class="font-exo text-1xl ">
+          UNLESS SOMEONE LIKE YOU CARES A WHOLE AWFUL LOT, NOTHING IS GOING TO GET BETTER. IT'S NOT.
+        </p>
+        <h1>-DR.SEUSS</h1> 
+        <input type="button" id="ViewWork"
+          class="border px-4 py-2 btn rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:scale-500 duration-300 ..."
+          value="Ready!!"
+        >
+          
+      </div>
+
+
+      <div id="after_text" class="" style="display: none;">
+        <p>hi bruh</p>
+
+      </div>  
+      </div>
+      
+    </div>
+  </body>
+</html>
